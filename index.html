@@ -90,7 +90,7 @@ nav ul li {
     nav ul li a {
   position: relative;                     /* Needed for ::after to position properly */
   text-decoration: none;
-  color: #79d39e;                           /* Default white text */
+  color: #000000;                           /* Default white text */
   font-size: 1.3rem;
   padding-bottom: 5px;
   transition: all 0.3s ease;              /* Smooth color & size changes */
@@ -102,7 +102,7 @@ nav ul li a::after {
   bottom: 0;
   width: 0%;                              /* Start with no underline */
   height: 2px;
-  background-color:   #79d39e;
+  background-color:   #000000;
   transition: width 0.4s ease;            /* Animate width */
 }
 
@@ -113,7 +113,7 @@ nav ul li a:hover::after {
 
 /* Text color and size change on hover */
 nav ul li a:hover {
-  color: rgb(243, 224, 224);
+  color: #ffffff;
   font-size: 1.1rem;
 }
 
@@ -194,7 +194,7 @@ nav ul li a:hover {
       }
 
       .purple {
-        color: #79d39e;
+        color: magenta;
       }
 
       .text-gray {
@@ -226,7 +226,7 @@ nav ul li a:hover {
 
       main hr {
         border: 0;
-        background-color:rgb(76 120 63);
+        background-color:#fffeff;
         height: 2.5px;
         margin: 60px 84px;
       }
@@ -531,7 +531,7 @@ background: linear-gradient(to right, #000000, #37164c) !important;
 .experience .number {
   font-size: 48px;
   font-weight: bold;
-  color: #265e25;
+  color: magenta;
 }
 
 .experience .text {
@@ -1430,6 +1430,7 @@ document.querySelectorAll(".right ul li a").forEach(link => {
     </script>
   </body>
 </html>
+
 
 
 
