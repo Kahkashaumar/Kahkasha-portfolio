@@ -24,7 +24,7 @@
 }
 
 #navhed{
-  color: #79d39e;
+  color: magenta;
   font-size: 2rem;
 }
       body {
@@ -90,7 +90,7 @@ nav ul li {
     nav ul li a {
   position: relative;                     /* Needed for ::after to position properly */
   text-decoration: none;
-  color: #000000;                           /* Default white text */
+  color: white;                           /* Default white text */
   font-size: 1.3rem;
   padding-bottom: 5px;
   transition: all 0.3s ease;              /* Smooth color & size changes */
@@ -102,7 +102,7 @@ nav ul li a::after {
   bottom: 0;
   width: 0%;                              /* Start with no underline */
   height: 2px;
-  background-color:   #000000;
+  background-color: magenta;
   transition: width 0.4s ease;            /* Animate width */
 }
 
@@ -127,7 +127,7 @@ nav ul li a:hover {
 
      
       nav ul li a:hover {
-        color: #0ee266;
+        color: rgb(255, 0, 255);
         font-size: 1.5rem;
   
       }
@@ -155,7 +155,7 @@ nav ul li a:hover {
 
     .btn {
   padding: 12px;
-  background-color: #265e25  !important;
+  background-color: magenta  !important;
    font-family: './CyberwayRiders', serif;
   color: white;
   border: 2px solid black;
@@ -170,14 +170,15 @@ nav ul li a:hover {
   transition: background-color 0.4s, color 0.4s, box-shadow 0.4s;
 }
 
+
 .btn:hover {
   background-color: transparent;
   color: rgb(255, 255, 255);
     box-shadow:
-    0 0 10px #63be89,
-    0 0 20px #79d39e,
-    0 0 40px #79d39e,
-    0 0 80px #79d39e;
+    0 0 10px rgb(226, 137, 226),
+    0 0 20px rgb(226, 137, 226),
+    0 0 40px rgb(226, 137, 226),
+    0 0 80px rgb(226, 137, 226);
   transform: scale(1.05);
 
 }
@@ -432,7 +433,7 @@ background: linear-gradient(to right, #000000, #37164c) !important;
 .skills-heading {
   font-size: 33px !important;
   margin-bottom: 25px;
-  color: #265e25!important;
+  color: magenta!important;
 }
 
 .skill {
@@ -612,7 +613,7 @@ background: linear-gradient(to right, #000000, magenta);
       .section-title {
         font-size: 36px;
         margin-bottom: 40px;
-        color: #32bf30;
+        color: magenta;
       }
 
       .services-container {
@@ -647,7 +648,7 @@ background: linear-gradient(to right, #000000, magenta);
       .service-box i {
         font-size: 40px;
         margin-bottom: 20px;
-        color: #7ee71b;
+        color: magenta;
       }
 
       .service-box h3 {
@@ -663,12 +664,12 @@ background: linear-gradient(to right, #000000, magenta);
       }
       .service-box:hover {
   transform: translateY(-10px) scale(1.03);
-  background-color: rgb(38, 126, 75) !important;
+  background-color: rgb(163, 43, 163) !important;
             box-shadow:
-    0 0 10px #63be89,
-    0 0 20px #79d39e,
-    0 0 40px #79d39e,
-    0 0 80px #79d39e; 
+    0 0 10px rgb(151, 89, 151),
+    0 0 20px rgb(151, 89, 151),
+    0 0 40px rgb(151, 89, 151),
+    0 0 80px rgb(151, 89, 151); 
   transform: scale(1.05);
   z-index: 10;
 }
@@ -702,7 +703,7 @@ background: linear-gradient(to right, #000000, magenta);
   width: 100%;
   height: 100%;
   width: 100%;
-  background: conic-gradient(#32bf30, transparent, #32bf30, transparent);
+  background: conic-gradient( magenta, transparent, magenta, transparent);
   border-radius: 50%;
   animation: rotateBorder 4s linear infinite;
   z-index: 0;
@@ -769,7 +770,7 @@ background-color:  #000000;
  position: relative;
  display: inline-block;
  color: transparent;
- -webkit-text-stroke: .7px #32bf30;
+ -webkit-text-stroke: .7px rgb(250, 6, 250);
  animation: display-text 16s linear infinite;
  animation-delay: calc(-4s *var(--i));
 }
@@ -784,8 +785,8 @@ background-color:  #000000;
   content: attr(data-text);
   position: absolute;
   width: 100%;
-  border-right:2px solid #247c22 ;
-  color: #32bf30;
+  border-right:2px solid rgb(219, 11, 219);
+  color: rgb(214, 22, 214);
   white-space: nowrap;
   overflow: hidden;
   animation: fill-text 4s linear infinite;
@@ -826,17 +827,17 @@ background-color:  #000000;
 .home-info .btn-sci .sci a {
   display: inline-flex;
   padding: 8px;
-  border: 2px solid #3d2585;
+  border: 2px solid magenta;
   border-radius: 50%;
   background-color: white;
   font-size: 20px;
-  color: #3d2585;
+  color: magenta;
 }
 
 .home-info .btn-sci .sci a:hover {
   background-color: #d4e4d4;
   color: black;
-  box-shadow: 0 0 10px #32bf30;
+  box-shadow: 0 0 20px rgb(197, 142, 197);
 }
 
 .btn {
@@ -889,7 +890,7 @@ background-color:  #000000;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #32bf30;
+  color: magenta;
   font-weight: bold;
   text-align: center;
 }
@@ -950,7 +951,7 @@ background: linear-gradient(to right, #000000, magenta);
 }
 .social-icons i:hover {
   transform: scale(1.2);
-  color: #ffa500;
+  color: rgb(184, 91, 184);
 }
 .contact-form {
   padding: 40px;
@@ -1045,7 +1046,7 @@ background: linear-gradient(to right, #000000, magenta);
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background: #4BB543;
+  background: magenta;
   color: white;
   padding: 15px 25px;
   border-radius: 10px;
@@ -1150,11 +1151,11 @@ nav a.active {
           </div>
         </div>
         <div class="rightSection">
-          <img src="./favpng_7d4d6d74bb9fa85d27c9535061bf3554.png" alt="" />
+          <img src="./imageee.png" alt="" />
         </div>
       </section>
       <hr />
-      <section class="skills-section" id="skills">
+        <section class="skills-section" id="skills">
   <div class="skills-container">
     <!-- Left Side -->
     <div class="skills-left fade-in show">
@@ -1173,50 +1174,52 @@ nav a.active {
       <h2 class="skills-heading">My Skills</h2>
       <div class="skill">
         <span>Html</span>
-        <div class="progress-bar"><div class="fill" style="width: 90%; background:#418f3f"></div></div>
+        <div class="progress-bar"><div class="fill" style="width: 90%; background : magenta;"></div></div>
       </div>
       <div class="skill">
         <span>CSS</span>
-        <div class="progress-bar"><div class="fill" style="width: 85%; background: #418f3f;"></div></div>
+        <div class="progress-bar"><div class="fill" style="width: 85%; background:  magenta;"></div></div>
       </div>
       <div class="skill">
         <span>JavaScript</span>
-        <div class="progress-bar"><div class="fill" style="width: 75%; background: #418f3f;"></div></div>
+        <div class="progress-bar"><div class="fill" style="width: 75%; background:  magenta;"></div></div>
       </div>
       <div class="skill">
         <span>Video Editing</span>
-        <div class="progress-bar"><div class="fill" style="width: 70%; background: #418f3f;"></div></div>
+        <div class="progress-bar"><div class="fill" style="width: 70%; background:  magenta;"></div></div>
       </div>
       <div class="skill">
         <span>Content Writing</span>
-        <div class="progress-bar"><div class="fill" style="width: 75%; background: #418f3f;"></div></div>
+        <div class="progress-bar"><div class="fill" style="width: 75%; background:  magenta;"></div></div>
       </div>
       <div class="skill">
         <span>Data Entry</span>
-        <div class="progress-bar"><div class="fill" style="width: 80%; background: #418f3f;"></div></div>
+        <div class="progress-bar"><div class="fill" style="width: 80%; background: magenta;"></div></div>
       </div>
       <div class="skill">
         <span>Typing and other Microsoft Office work</span>
-        <div class="progress-bar"><div class="fill" style="width: 90%; background: #418f3f;"></div></div>
+        <div class="progress-bar"><div class="fill" style="width: 90%; background: magenta;"></div></div>
       </div>
       <div class="skill">
         <span>Social Media Management</span>
-        <div class="progress-bar"><div class="fill" style="width: 70%; background: #418f3f;"></div></div>
+        <div class="progress-bar"><div class="fill" style="width: 70%; background:  magenta;"></div></div>
       </div>
       <div class="skill">
         <span> Canva & Photoshop</span>
-        <div class="progress-bar"><div class="fill" style="width: 65%; background: #418f3f;"></div></div>
+        <div class="progress-bar"><div class="fill" style="width: 65%; background:  magenta;"></div></div>
       </div>
       <div class="skill">
         <span>Communication Skills</span>
-        <div class="progress-bar"><div class="fill" style="width: 65%; background: #418f3f;"></div></div>
+        <div class="progress-bar"><div class="fill" style="width: 65%; background:  magenta;"></div></div>
+      </div>
+      <div class="skill">
+        <span>Business & Communication Skills</span>
+        <div class="progress-bar"><div class="fill" style="width: 65%; background:  magenta;"></div></div>
       </div>
         <span>Fluent English</span>
-        <div class="progress-bar"><div class="fill" style="width: 85%; background: #418f3f;"></div></div>
+        <div class="progress-bar"><div class="fill" style="width: 85%; background:  magenta;"></div></div>
       </div>
-      <span>Business Communication & Customer Handling</span>
-        <div class="progress-bar"><div class="fill" style="width: 80%; background: #418f3f;"></div></div>
-      </div>
+  
     </div>
   </div>
 </section>
@@ -1286,7 +1289,7 @@ I’m eager to explore opportunities in content creation, social media, digital 
         <div class="contact-info">
           <h2>Contact Info</h2>
           <p><i class="fas fa-map-marker-alt"></i> Kolkata<br>West Bengal, India</p>
-          <p><i class="fas fa-envelope"></i> kahkashaumar@gmail.com</p>
+          <p><i class="fas fa-envelope"></i> kahkashaumar0@gmail.com</p>
        
 
               <div class="social-icons">
